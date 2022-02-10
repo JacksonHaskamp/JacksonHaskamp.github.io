@@ -13,8 +13,37 @@ section h1 {
     margin-bottom: 10vh;
 
 }
-.curve {
-    position: 
+
+footer {
+    margin-top: 24vh;
+}
+.footer-grid {
+    
+    display: grid;
+    width: 100%;
+    grid-template-columns: 14.11% 27.06% 27.06% 31.77%;
+    grid-auto-flow: column;
+}
+.footer-container {
+   
+    width: 100%;
+    position: relative;
+    padding-left: 4.9vw;
+    padding-right: 4.9vw;
+    height: 40vh;
+    background-color: black;
+    color: white;
+}
+.footer-desc {
+/*    font-size: .625vw;*/
+    line-height: 1em;
+    max-width: 5.41667vw;
+    text-align: justify;
+}
+.footer-header {
+    text-align: center;
+    line-height: 2em;
+    font-size: 7vh;
 }
 /*S*/
 body {
