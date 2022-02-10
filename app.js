@@ -24,7 +24,7 @@ $.ajax({
 
     if (oldValue < newValue) {
         console.log("Up");
-        tickbox.style.animationName
+        tickbox.style.animationName = "ticker-reverse";
       
     
   } else if (oldValue > newValue) {
@@ -36,7 +36,7 @@ $.ajax({
         
     }
 });
-
+var oldValue = 0;
 window.onscroll = function (e) {  
 // called when the window is scrolled.  
   newValue = window.pageYOffset;
@@ -44,7 +44,7 @@ window.onscroll = function (e) {
 
     if (oldValue < newValue) {
         console.log("Up");
-        tickbox.style.animationName
+        tickbox.style.animationName = "ticker-reverse";
       
     
   } else if (oldValue > newValue) {

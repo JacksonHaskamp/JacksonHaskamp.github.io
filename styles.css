@@ -134,65 +134,11 @@ button {
 button:hover {
     background-color: rgba(22,68,89,0.8);
 }
-.wave-top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
 
-.wave-top svg {
-    position: relative;
-    display: block;
-    width: calc(116% + 1.3px);
-    height: 353px;
-}
 
-.wave-top .shape-fill {
-    fill: #92B09D;
-}
-.wave2-bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
 
-.wave2-bottom svg {
-    position: relative;
-    display: block;
-    width: calc(116% + 1.3px);
-    height: 201px;
-}
 
-.wave2-bottom .shape-fill {
-    fill: #E84832;
-}
 
-.wave2-top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.wave2-top svg {
-    position: relative;
-    display: block;
-    width: calc(116% + 1.3px);
-    height: 201px;
-}
-
-.wave2-top .shape-fill {
-    fill: #E84832;
-}
 .spacer {
     
     width: 10%;
@@ -209,17 +155,8 @@ button:hover {
     height: 100vh;
    
 }
-.layer1 {
-    background-image: url(assets/fairymush-transparent.svg);
-    z-index: 0;
-}
-.layer2 {
-    z-index: 2;
-    
-}
-.firstname {
-    
-}
+
+
 .name-container {
     display: flex;
     flex-flow: row;
@@ -277,13 +214,13 @@ button:hover {
 /*   ticker animation codepen : https://codepen.io/lewismcarey/pen/GJZVoG */
     -webkit-animation-iteration-count: infinite; 
             animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear
-            animation-timing-function: linear;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     animation-duration: 25s;
     animation-direction: linear;
     animation-duration: 25s;
 
-  animation: ticker 25s linear infinite;
+  animation: ticker 10s ease-in infinite;
     
 }
 html, body {
