@@ -36,6 +36,15 @@ footer {
     
     color: white;
 }
+.c-num {
+    margin-right: .875vw;
+}
+.f-link {
+    text-decoration: none;
+    color: white;
+    font-size: .9vw;
+   
+}
 .footer-desc {
 /*    font-size: .625vw;*/
     line-height: 1em;
@@ -57,7 +66,12 @@ footer {
     line-height: 1em;
     margin-bottom: 18px;
 }
-/*S*/
+.fg-contacts {
+    display: block;
+}
+.fg-contact-items {
+    display: block;
+}
 body {
    
     box-sizing: border-box;
