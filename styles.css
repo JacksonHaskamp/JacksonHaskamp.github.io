@@ -15,7 +15,9 @@ section h1 {
 }
 
 footer {
-    margin-top: 24vh;
+    margin-top: 8vw;
+    padding-top: 4vw;
+    background-color: black;
 }
 .footer-grid {
     
@@ -31,7 +33,7 @@ footer {
     padding-left: 4.9vw;
     padding-right: 4.9vw;
     height: 40vh;
-    background-color: black;
+    
     color: white;
 }
 .footer-desc {
@@ -42,8 +44,18 @@ footer {
 }
 .footer-header {
     text-align: center;
-    line-height: 2em;
-    font-size: 7vh;
+    color: black;
+    
+    line-height: 1em;
+    font-size: 15vh;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    
+}
+.footer-gen-title {
+    font-size: 1vw;
+    line-height: 1em;
+    margin-bottom: 18px;
 }
 /*S*/
 body {
