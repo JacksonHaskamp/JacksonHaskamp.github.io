@@ -61,10 +61,13 @@ footer {
     max-width: 5.41667vw;
     text-align: justify;
 }
+.footer-header-section {
+    padding-bottom: .175vw;
+    height: 10vh;
+}
 .footer-header {
     text-align: center;
     color: black;
-    
     line-height: 1em;
     font-size: 15vh;
     text-decoration-line: underline;
