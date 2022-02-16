@@ -13,9 +13,18 @@ section h1 {
     margin-bottom: 10vh;
 
 }
-
+.page-links {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+.page-links li a {
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
 footer {
-    margin-top: 8vw;
+    margin-top: 1vw;
     padding-top: 4vw;
     background-color: black;
 }
@@ -25,6 +34,7 @@ footer {
     width: 100%;
     grid-template-columns: 14.11% 27.06% 27.06% 31.77%;
     grid-auto-flow: column;
+    color: white;
 }
 .footer-container {
    
@@ -32,7 +42,7 @@ footer {
     position: relative;
     padding-left: 4.9vw;
     padding-right: 4.9vw;
-    height: 40vh;
+    height: 35vh;
     
     color: white;
 }
@@ -42,7 +52,7 @@ footer {
 .f-link {
     text-decoration: none;
     color: white;
-    font-size: .9vw;
+    font-size: 1    vw;
    
 }
 .fg-desc {
@@ -64,11 +74,19 @@ footer {
 .footer-gen-title {
     font-size: 1vw;
     line-height: 1em;
-    margin-bottom: 18px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .fg-contacts {
     display: block;
 }
+.fg-contacts > * {
+   padding: .8rem;
+}
+.fg-pages > * {
+    padding: .8rem;
+ }
+
 .fg-contact-items {
     display: block;
 }
@@ -94,7 +112,7 @@ header {
     padding: 30px 10%;
 
 }
-.header-container {
+#header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
