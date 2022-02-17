@@ -70,8 +70,8 @@ footer {
     color: black;
     line-height: 1em;
     font-size: 15vh;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
+    /* text-decoration-line: underline; */
+    /* text-decoration-style: solid; */
     
 }
 .footer-gen-title {
@@ -83,10 +83,8 @@ footer {
 .fg-contacts {
     display: block;
 }
-.fg-contacts > * {
-   padding: .8rem;
-}
-.fg-pages > * {
+
+.fg-pages, .fg-contacts, .fg-socials > * {
     padding: .8rem;
  }
 
@@ -173,7 +171,7 @@ button:hover {
     flex-direction: row;
 }
 .main-content {
-    height: 100vh;
+    height: 120vh;
    
 }
 
@@ -226,6 +224,7 @@ button:hover {
     line-height: 1em;
     
 }
+
 .ticker {
     display: flex;
     white-space: nowrap;
@@ -269,4 +268,12 @@ html, body {
   }
 }
 
+.social-bubble {
+    width: 4rem;
+    background-color: black;
+    border-color: white;
+    border-style: dashed;
+    height: 4rem;
+    border-radius: 50%;
+}
 
