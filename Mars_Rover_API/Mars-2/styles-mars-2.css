@@ -56,3 +56,13 @@
    
     
 }
+#d > * {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+#dataSelect {
+    position: relative;
+    vertical-align: middle;
+    min-height: 34px;
+    
+}

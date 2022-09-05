@@ -65,7 +65,8 @@ function getPhotos(){
     var sol = document.getElementById("inputSol").value;
     var cam = document.getElementById("dropdown").value;
     var gallery = document.getElementById("gallery");
-    
+    var loadSign = document.getElementById("loading");
+    loadSign.style.display = "none";
     gallery.innerHTML = "";
     
     console.dir(sol);
@@ -74,6 +75,7 @@ function getPhotos(){
     var xmlHttp = new XMLHttpRequest();
                 
     xmlHttp.onload = function(){
+
         if(xmlHttp.status == 200){
                         
             var response = xmlHttp.responseText;
@@ -93,7 +95,8 @@ function getPhotos(){
             }
             
             //gallery.innerHTML += "<div><img src='"+ response.photos[1].img_src + "'alt='image' </img></div>"
-            showCurrentSlide(1);            
+            showCurrentSlide(1);   
+            loadSign.style.display = "none";
                         
         }
     };
