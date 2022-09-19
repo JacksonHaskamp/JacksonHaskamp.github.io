@@ -198,6 +198,7 @@ button:hover {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    
 }
 #to-do-list-thumbnail {
      background-image: url(assets/Todo-list-thumnail.png);
@@ -215,10 +216,10 @@ button:hover {
     overflow: visible;
 }
 #mars-thumbnail {
-    background-image: url(assets/Mars-API-Thumbmnail.png);
+    background-image: url(assets/mars-v2-thumbnail.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 500px;
+    width: 650px;
     height: 350px;
 }
 #google-homepage-thumbnail {
