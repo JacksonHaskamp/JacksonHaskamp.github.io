@@ -221,6 +221,13 @@ button:hover {
     width: 500px;
     height: 350px;
 }
+#google-homepage-thumbnail {
+    background-image: url(assets/google-homepage-thumbnail.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+}
 #project-header {
     font-size: 10vw;
     line-height: 1em;
